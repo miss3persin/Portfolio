@@ -228,7 +228,7 @@ height: 150px;
 }
 
 
-  @media (max-width: 360px) {
+  @media (max-width: 425px) {
     .project-container {
         justify-content: center;
         display: flex;

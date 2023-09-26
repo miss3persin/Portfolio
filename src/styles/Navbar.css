@@ -186,7 +186,7 @@
 }
 
 
-  @media (max-width: 350px) {
+  @media (max-width: 425px) {
     .app {
         display: grid;
         align-items: center;

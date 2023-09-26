@@ -85,7 +85,7 @@ img {
 
 
 
-@media (max-width: 350px) {
+@media (max-width: 425px) {
     form {
         display: flex;
         flex-direction: column;
