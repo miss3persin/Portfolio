@@ -1,0 +1,9 @@
+.backdrop-text4 {
+    position: absolute;
+    top: 5%;
+    right: -2210px;
+    opacity: 0.05;
+    z-index: -1;
+    font-size: 500px;
+    user-select: none;
+}

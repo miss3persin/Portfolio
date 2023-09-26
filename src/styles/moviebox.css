@@ -1,0 +1,80 @@
+.modal-container {
+    color: black;
+}
+
+.image1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image1 img{
+    width: 90%;
+    height: 50%;
+}
+
+.image2{
+    display: flex;
+}
+.image2 img{
+    width: 95%;
+    height: 50%;
+}
+
+.images-together {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.modal-content {
+    padding-right: 30px;
+}
+
+.modal-content li {
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+
+.modal-content p, .modal-content ul {
+    font-weight: 600;
+}
+
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 9px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+    background-color: white; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black; /* Thumb color */
+    border-radius: 6px; /* Rounded corners */
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+    width: 9px;
+}
+
+
+::-moz-scrollbar-track {
+    background-color: white;
+}
+
+::-moz-scrollbar-thumb {
+    background-color: black; /* Thumb color */
+    border-radius: 6px; /* Rounded corners */
+}
+
+a {
+    text-decoration: none;
+}
+
+header p {
+    margin-bottom: 30px;
+}

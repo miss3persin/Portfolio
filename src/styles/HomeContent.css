@@ -1,0 +1,57 @@
+.backdrop-text {
+    position: fixed;
+    transform: translateY(-50%);
+    right: -650px;
+    top: 50%;
+    opacity: 0.05;
+    z-index: -999;
+    font-size: 500px;
+    user-select: none;
+}
+
+.hi {
+    font-weight: 400;
+}
+
+.home-text{
+    width: 100%;
+    height: 100%;
+    align-items: end;
+    /* align-items: center; */
+    text-align: right;
+    padding: 0 30px;
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+}
+
+.my-name {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    gap: 0;
+}
+
+.my-name h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.side-comment {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    /* font-weight: 600; */
+}
+
+.side-comment p {
+    margin: 3px;
+}
