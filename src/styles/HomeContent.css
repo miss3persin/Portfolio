@@ -87,3 +87,31 @@
         gap: 10px;
     }
 }
+
+
+@media (max-width: 360px) {
+    .my-name {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .hi {
+        font-size: 21px;
+        align-items: center;
+    }
+
+    .side-comment {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .home-text{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+    
+    }
+}
