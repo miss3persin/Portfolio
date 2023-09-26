@@ -90,14 +90,21 @@ function onMouseHoverOut() {
       <div className="project-div hoverable" onClick={() => activateComponent(<Myportfolio closeModal={deactivateComponent} />)}><img src={myimage} alt="moviebox" className="opacityvibe"/> <p className='special'> WIP</p> Personal Portfolio (Work in Progress)</div>
       </div>
     </div>
-    {activeComponent && (
+    {/* {activeComponent && (
         <div className="overlay">
           <div className="overlay-content">
             {activeComponent}
             <div className="close-button hoverable" onClick={deactivateComponent}>X</div>
           </div>
         </div>
-      )}
+      )} */}
+
+<div className={`overlay ${activeComponent ? 'active' : ''}`}>
+      <div className="overlay-content">
+        {activeComponent}
+        <div className="close-button hoverable" onClick={deactivateComponent}>X</div>
+      </div>
+    </div>
     </>
   )
 }
