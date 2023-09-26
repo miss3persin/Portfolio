@@ -55,3 +55,35 @@
 .side-comment p {
     margin: 3px;
 }
+
+@media (max-width: 1080px) {
+    .my-name {
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 968px) {
+    .my-name {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 810px) {
+    .my-name {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .hi {
+        font-size: 21px;
+    }
+
+    .side-comment {
+        font-size: 16px;
+        gap: 10px;
+    }
+}

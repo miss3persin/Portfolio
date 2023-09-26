@@ -78,7 +78,8 @@ const BackgroundEffect = () => {
     </div>
   </div>
     <div className='container'>
-    <div className="wrapper"><p className="content">.</p></div>
+    <div className="wrapper"><p className="content">
+</p></div>
     </div>
     </>
   )

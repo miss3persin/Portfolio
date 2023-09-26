@@ -6,7 +6,6 @@ import HomeContent from "./HomeContent"
 import ContactContent from "./ContactContent";
 import ProfileContent from "./ProfileContent";
 import PortfolioContent from "./PortfolioContent"
-import SurpriseMe from "./SurpriseMe"
 
 const Navbar = () => {
   const [activeTab, setActiveTab] = useState("home");
@@ -14,6 +13,23 @@ const Navbar = () => {
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
+
+  const reloadPage = () => {
+    location.reload();
+}
+
+const openRandomLink = () => {
+  const randomLinks = [
+      'https://my-image-gallery-one.vercel.app/',
+      'https://hn-gx-stage-two-task.vercel.app/',
+      'https://github.com/miss3persin'
+  ];
+
+  const randomIndex = Math.floor(Math.random() * randomLinks.length);
+
+  window.open(randomLinks[randomIndex], '_blank');
+  location.reload();
+}
 
   return (
     <div className="app">
@@ -269,12 +285,12 @@ const Navbar = () => {
 
       <div className="main-content">
         {/* Content for the active tab goes here */}
-        {activeTab === "logo" && <div>Logo</div>}
+        {activeTab === "logo" ? (reloadPage()) : ("")}
         {activeTab === "home" && <div data-aos="fade-left"><HomeContent/></div>}
         {activeTab === "profile" && <div data-aos="fade-left"><ProfileContent/></div>}
         {activeTab === "portfolio" && <div data-aos="fade-left"><PortfolioContent/></div>}
         {activeTab === "contact" && <div data-aos="fade-left"><ContactContent/></div>}
-        {activeTab === "surprise" && <div><SurpriseMe/></div>}
+        {activeTab === "surprise" && openRandomLink()}
       </div>
     </div>
   );

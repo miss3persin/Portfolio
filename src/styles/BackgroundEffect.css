@@ -6,6 +6,16 @@ body, html {
     color: white;
 }
 
+@media (max-width: 690px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: visible;
+    color: white;
+}
+}
+
 
 .cursor {
   pointer-events: none;   
