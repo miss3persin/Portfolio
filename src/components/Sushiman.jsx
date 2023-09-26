@@ -123,7 +123,7 @@ const Sushiman = ({ closeModal }) => {
     </section>
 
     <footer>
-        <p className='hoverable'>Note: This project is a fictional portfolio piece and not an actual functioning website.</p>
+        <p className='hoverable'>Note: This project is a personal learning experience and not an actual deployed website.</p>
     </footer>
       </div>
     </div>
