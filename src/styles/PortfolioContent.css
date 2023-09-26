@@ -226,3 +226,15 @@ height: 150px;
         margin: 0;
     }
 }
+
+
+  @media (max-width: 360px) {
+    .project-container {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-top: 30px;
+    }
+}
