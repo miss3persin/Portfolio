@@ -85,9 +85,9 @@ function onMouseHoverOut() {
       <div className="project-div hoverable" onClick={() => activateComponent(<ImageGallery closeModal={deactivateComponent} />)}><img src={imagegallery1} alt="moviebox" /> Image Gallery</div>
       </div>
       <div className="projects">
-      <div className="project-div hoverable" onClick={() => activateComponent(<Dalle closeModal={deactivateComponent} />)}><img src={dalle1} alt="moviebox" /> <p className='normal'>WIP</p> DALL-E Clone (Work in Progress)</div>
-      <div className="project-div hoverable" onClick={() => activateComponent(<Transverse closeModal={deactivateComponent} />)}><img src={transverseimage} alt="moviebox" /> <p className='normal'>WIP</p> TransVerse Chat App (Work in Progress)</div>
-      <div className="project-div hoverable" onClick={() => activateComponent(<Myportfolio closeModal={deactivateComponent} />)}><img src={myimage} alt="moviebox" /> <p className='special'> WIP</p> Personal Portfolio (Work in Progress)</div>
+      <div className="project-div hoverable" onClick={() => activateComponent(<Dalle closeModal={deactivateComponent} />)}><img src={dalle1} alt="moviebox" className="opacityvibe"/> <p className='normal'>WIP</p> DALL-E Clone (Work in Progress)</div>
+      <div className="project-div hoverable" onClick={() => activateComponent(<Transverse closeModal={deactivateComponent} />)}><img src={transverseimage} alt="moviebox" className="opacityvibe"/> <p className='special'>WIP</p> TransVerse Chat App (Work in Progress)</div>
+      <div className="project-div hoverable" onClick={() => activateComponent(<Myportfolio closeModal={deactivateComponent} />)}><img src={myimage} alt="moviebox" className="opacityvibe"/> <p className='special'> WIP</p> Personal Portfolio (Work in Progress)</div>
       </div>
     </div>
     {activeComponent && (
