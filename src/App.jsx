@@ -3,12 +3,8 @@ import Navbar from './components/Navbar'
 import './styles/App.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
-// Import necessary packages and icons
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
-// Add the icons to the library
-library.add(faCoffee, faSearch);
 
 
 const App = () => {
@@ -20,9 +16,11 @@ const App = () => {
 
   return (
     <>
+    <Helmet>
+  <meta name="miss3persin" content="check out Segun Ige-bello's (miss3persin) portfolio" />
+</Helmet>
       <BackgroundEffect/>
       <Navbar/>
-    {/* <div className="text hoverable">HELLO WORLD!</div> */}
     </>
   )
 }
