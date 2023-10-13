@@ -60,7 +60,7 @@ function onMouseHoverOut() {
   };
   return (
     <>
-    <div className='backdrop-text3'>ABOUT ME</div>
+    <div className='backdrop-text3'>ABOUT</div>
     <div className='profile-container' data-aos="fade-left" data-aos-delay="500">
       <div className="intro">
       <p className='hoverable'>SEGUN IGE-BELLO at your service.</p>
@@ -75,10 +75,10 @@ function onMouseHoverOut() {
       </div>
 
       <div className="side-comment">
-      <p className='hoverable'>Check out my Resumé below or Portfolio section to find out more</p>
-      <p className='hoverable'>about projects i've done and projects i'm doing!</p>
+      <p className='hoverable'>Check out my Resumé below or the projects section to find out more</p>
+      <p className='hoverable'>about my past and present projects (WIP)!</p>
       </div>
-      <button className="download-btn hoverable" onClick={handleButtonClick}>Resumé</button>
+      <button className="download-btn hoverable" onClick={handleButtonClick}>RESUMÉ</button>
     </div>
     </>
   )

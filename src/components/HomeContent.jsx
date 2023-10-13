@@ -64,7 +64,7 @@ function onMouseHoverOut() {
       </div>
       <div className="side-comment">
       <p className="hoverable">Feel free to snoop around, and I hope you have a great time.</p>
-      <p className="hoverable">I do recommend checking out the 'about me' or 'portfolio' section though.</p>
+      <p className="hoverable">I do recommend checking out the 'about me' or 'project' section though.</p>
       </div>
     </div>
     </>

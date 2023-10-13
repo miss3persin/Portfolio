@@ -56,10 +56,34 @@
     margin: 3px;
 }
 
+@media (max-width: 1155px) {
+    .my-name {
+        font-size: 23px;
+    }
+
+    .my-name h1{
+        margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+    .home-text {
+        gap: 20px;
+    }
+}
+
 @media (max-width: 1080px) {
     .my-name {
-        font-size: 20px;
+        font-size: 19px;
 
+    }
+
+    .my-name h1{
+        margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+    .home-text {
+        gap: 30px;
     }
 }
 
@@ -67,7 +91,23 @@
     .my-name {
         margin-top: 10px;
         margin-bottom: 20px;
-        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-text {
+        align-items: center;
+    }
+
+    .side-comment {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-name h1{
+        font-size: 28px;
     }
 }
 
@@ -76,6 +116,10 @@
         margin-top: 10px;
         margin-bottom: 20px;
         font-size: 12px;
+    }
+
+    .home-text {
+        margin-top: 0;
     }
 
     .hi {

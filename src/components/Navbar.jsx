@@ -170,7 +170,7 @@ const openRandomLink = () => {
                 />
               </g>
             </svg>
-            <div className="nav-text"><p>PORTFOLIO</p></div>
+            <div className="nav-text"><p>PROJECTS</p></div>
           </div>
         </div>
 

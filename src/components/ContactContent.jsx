@@ -57,7 +57,7 @@ function onMouseHoverOut() {
 
   return (
     <>
-    <div className='backdrop-text1'>CONTACT ME</div>
+    <div className='backdrop-text1'>CONTACT</div>
     <div data-aos="fade-left" data-aos-delay="500" className="contact-container">
     <div className="contact-text">
       <p className="hoverable">Feel free to get in touch, I'll get back to you as soon as I can. </p>

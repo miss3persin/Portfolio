@@ -3,11 +3,11 @@
     /* top: 5%;
     right: -1595px; */
     /* transform: translateX(1000px); */
-    transform: translateY(-25%);
+    transform: translateY(-50%);
     top: 50%;
     /* top: 0;
     bottom: 1000px; */
-    right: -1300px;
+    right: -917px;
     opacity: 0.05;
     z-index: -1;
     font-size: 500px;
@@ -15,9 +15,7 @@
 }
 
 .profile-container {
-    margin-right: 50px;
-    /* width: 100%; */
-    /* height: 100%; */
+    /* margin-left: 50px; */
     align-items: end;
     text-align: right;
     padding: 0 30px;
@@ -48,7 +46,7 @@
 }
 
 .intro p{
-    font-size: 28px;
+    font-size: 30px;
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 600;
@@ -64,7 +62,7 @@
 }
 
 .info-me p{
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -81,13 +79,34 @@
     }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 986px) {
+    .profile-container {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .info-me {
+        align-items: center;
+        text-align: center;
+        gap: 0;
+    }
+
     .info-me p{
-        font-size: 16px;
+        font-size: 18px;
+    }
+
+    .intro {
+        align-items: center;
     }
 
     .intro p{
         font-size: 25px;
+        text-align: center;
+    }
+
+    .side-comment p {
+        font-size: 15px;
     }
 }
 
@@ -102,7 +121,7 @@
     }
 
     .intro p{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -111,7 +130,37 @@
     }
 
     .side-comment {
+        font-size: 10px;
+        gap: 10px;
+    }
+    .profile-container {
+        align-items: center;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .profile-container{
+        text-align: center;
+        margin: 0;
+    }
+
+    .info-me p{
         font-size: 16px;
+        text-align: center;
+    }
+
+    .intro p{
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .intro {
+        align-items: center;
+    }
+
+    .side-comment {
+        font-size: 10px;
         gap: 10px;
     }
     .profile-container {

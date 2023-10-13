@@ -12,7 +12,7 @@ const BackgroundEffect = () => {
         // eslint-disable-next-line no-unused-vars
         const handleMouseMove = (e) => {
           const content = document.querySelector('.content');
-          content.innerText = randomString(7000);
+          content.innerText = randomString(17000);
 
 
           const $bigBall = document.querySelector('.cursor__ball--big');
