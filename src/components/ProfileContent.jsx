@@ -56,7 +56,7 @@ function onMouseHoverOut() {
 
 
   const handleButtonClick = () => {
-    window.open('https://docdro.id/pkZpO4d', '_blank');
+    window.open('https://drive.google.com/file/d/1mvYPnq-guxQPXBeUsSwUYaDVzjEklZSL/view?usp=share_link', '_blank');
   };
   return (
     <>
@@ -64,7 +64,7 @@ function onMouseHoverOut() {
     <div className='profile-container' data-aos="fade-left" data-aos-delay="500">
       <div className="intro">
       <p className='hoverable'>SEGUN IGE-BELLO at your service.</p>
-      <p className='hoverable'>A full-stack MERN developer, and UI enthusiast.</p>
+      <p className='hoverable'>A Frontend Web Developer, and UI enthusiast.</p>
       </div>
 
       <div className="info-me">

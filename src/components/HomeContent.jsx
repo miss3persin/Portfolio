@@ -59,7 +59,7 @@ function onMouseHoverOut() {
       <h1 className="hi hoverable">Hi there!</h1>
       <div className="my-name">
       <h1 className="hoverable">My name is SEGUN IGE-BELLO</h1>
-      <h1 className="hoverable">A FULLSTACK WEB DEVELOPER</h1>
+      <h1 className="hoverable">A FRONTEND WEB DEVELOPER</h1>
       <h1 className="hoverable">and this is my portfolio.</h1>
       </div>
       <div className="side-comment">
